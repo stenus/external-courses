@@ -1,4 +1,4 @@
-function isAllElementsSame(array) {
+function areAllElementsSame(array) {
   /* чтобы проверить, равны ли все элементы массива между собой, 
     будем сравнивать все элементы с первым */
   const isElementSameWithFirst = (currentElement) =>
@@ -6,4 +6,4 @@ function isAllElementsSame(array) {
   return array.every(isElementSameWithFirst);
 }
 
-module.exports = isAllElementsSame;
+module.exports = areAllElementsSame;

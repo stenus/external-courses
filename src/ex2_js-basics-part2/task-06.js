@@ -1,17 +1,13 @@
 function reportIsPrime(number) {
-  let message;
   if (number === 0 || number === 1 || number > 1000) {
-    message = "Данные неверны";
-    return message;
+    return "Данные неверны";
   }
   for (let i = 2; i < number; i++) {
-    if (number % i === 0) {
-      message = `Число ${number} - составное число`;
-      return message;
+    if (number % i === 0) {;
+      return `Число ${number} - составное число`;
     }
   }
-  message = `Число ${number} - простое число`;
-  return message;
+  return `Число ${number} - простое число`;
 }
 
 module.exports = reportIsPrime;

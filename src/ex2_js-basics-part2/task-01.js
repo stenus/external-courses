@@ -5,6 +5,7 @@ function numberOrString(value) {
     }
     return "number";
   }
+
   if (typeof value === "string") {
     return "string";
   }
