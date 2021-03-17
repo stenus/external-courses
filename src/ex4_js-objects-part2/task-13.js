@@ -1,5 +1,7 @@
 function randomIntegerFrom0To100() {
-  return Math.floor(101 * Math.random());
+  const MIN = 0;
+  const MAX = 100;
+  return Math.floor(Math.random() * (MAX - MIN + 1) + MIN);
 }
 
 module.exports = randomIntegerFrom0To100;
