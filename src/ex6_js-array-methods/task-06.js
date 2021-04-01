@@ -1,7 +1,9 @@
-function reduce(array, callback, initialValue) {
-  let begin, result;
+function reduce(...args) {
+  let [array, callback, initialValue] = [...args];
+  let begin;
+  let result;
 
-  if (arguments.length === 2) {
+  if (args.length === 2) {
     begin = 1;
     result = array[0];
   } else {
