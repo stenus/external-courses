@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* merriweather-regular - latin */
+      @font-face {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 400;
+        src: local(""),
+          url("fonts/merriweather-v22-latin-regular.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("fonts/merriweather-v22-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+
+      /* roboto-regular - latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        src: local(""),
+          url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/roboto-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+    </style>
+    <link rel="stylesheet" href="task-04.css" />
+  </head>
+  <body style="background-color: hsl(145, 65%, 81%)">
+    <h1>HTML Basics</h1>
+    <h2>Lists</h2>
+    <h3>Ordered list</h3>
+    <ol>
+      <li>first item</li>
+      <li>second item</li>
+      <li>third item</li>
+      <li>fourth item</li>
+      <li>fifth item</li>
+    </ol>
+    <h3>Unordered list</h3>
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>E</li>
+    </ul>
+    <div class="green-box">
+      <h3>Description List</h3>
+      <dl>
+        <dt>Name</dt>
+        <dd>Godzilla</dd>
+        <dt>Born</dt>
+        <dd>1952</dd>
+        <dt>Birthplace</dt>
+        <dd>Japan</dd>
+        <dt>Color</dt>
+        <dd>Green</dd>
+      </dl>
+      <h3>Nested list</h3>
+      <ul>
+        <li>List item one</li>
+        <li>
+          List item two with subitems:
+          <ul>
+            <li>
+              Subitem 1
+              <ul>
+                <li>SubSubitem 1</li>
+                <li>SubSubitem 2</li>
+              </ul>
+            </li>
+            <li>Subitem 2</li>
+          </ul>
+        </li>
+        <li>Final list item</li>
+      </ul>
+    </div>
+    <h3>List with links</h3>
+    <ul>
+      <li><a href="javascript:void(0);">Home</a></li>
+      <li><a href="javascript:void(0);">News</a></li>
+      <li><a href="javascript:void(0);">Contact</a></li>
+      <li><a href="javascript:void(0);">About</a></li>
+    </ul>
+    <hr />
+    <h2>Paragraphs</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut
+      pharetra lectus. In hac habitasse platea dictumst. Praesent fermentum in
+      erat at porttitor. Donec placerat dignissim elit et ultrices. Donec tempor
+      quis felis nec dapibus. Curabitur interdum, eros et blandit scelerisque,
+      lectus nunc dignissim metus, quis placerat urna nulla a odio.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <br />
+      Nam facilisis lorem vitae pellentesque ultricies.
+      <br />
+      Vestibulum at diam quis est ornare imperdiet.
+      <br />
+      Ut vel magna venenatis, aliquam erat vel, egestas enim.
+      <br />
+      Nam vulputate tortor nec erat mattis venenatis eu sed enim.
+      <br />
+      Vivamus elementum mi ut posuere mattis.
+      <br />
+      Curabitur maximus magna non quam ornare, a ultricies enim consequat.
+      <br />
+      Fusce eu neque vitae arcu efficitur vestibulum.
+      <br />
+      Fusce pulvinar augue vitae mi pulvinar malesuada et quis turpis.
+      <br />
+    </p>
+    <hr />
+    <h2>Tables</h2>
+    <table>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>Image</h2>
+    <img class="small-image" src="images/kitten.jpg" alt="A ginger kitten" />
+    <h2>Pre tag</h2>
+    <pre>
+        if (time = 20) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good evening";
+        }
+    </pre>
+  </body>
+</html>

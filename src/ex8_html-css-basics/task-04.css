@@ -1,0 +1,74 @@
+/* BACKGROUNDS */
+p,
+ol {
+  background-image: url("images/sand.jpg");
+}
+
+dl {
+  background-image: url("images/sea.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+ul {
+  background-color: rgba(56, 209, 9, 0.3);
+}
+
+ul li {
+  font-size: 0.9em;
+}
+
+table {
+  background: linear-gradient(#099734, #f3d112);
+}
+
+.green-box {
+  background-color: green;
+}
+
+/* SIZES */
+p {
+  width: 70vw;
+}
+
+dl {
+  width: 50%;
+  height: 300px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.small-image {
+  width: 200px;
+  height: auto;
+}
+
+/* FONTS ANT TEXT PROPERTIES */
+body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+ol {
+  font-style: italic;
+}
+
+p {
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2px;
+  text-indent: 5%;
+}
+
+dl {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
