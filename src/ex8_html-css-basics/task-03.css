@@ -1,0 +1,15 @@
+div {
+  margin: 1rem;
+}
+
+.border {
+  border: 5px solid;
+}
+
+.shadow {
+  box-shadow: 0px 0px 0px 5px;
+}
+
+.outline {
+  outline: 5px solid;
+}
