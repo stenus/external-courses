@@ -1,0 +1,41 @@
+.button-frame {
+  display: inline-block;
+  background-color: #cbcbcb;
+  padding: 7px;
+  border: 2px solid #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 0 2px #666666, 0px 1px 7px 0px #666666;
+}
+
+.button {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #555555;
+  font-size: 24px;
+  text-shadow: 0 1px 1px white;
+  text-align: center;
+  line-height: 0;
+  background-color: #dddddd;
+  width: 247px;
+  height: 59px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 1px #555555, inset 0 28px 1px rgba(227, 227, 227, 0.5);
+  background: linear-gradient(180deg, rgba(227, 227, 227, 1) 0%, #adadad 100%);
+}
+
+.button::before,
+.button::after {
+  color: #888888;
+  font-size: 33px;
+  content: "★";
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.button:focus {
+  outline: 0;
+}
