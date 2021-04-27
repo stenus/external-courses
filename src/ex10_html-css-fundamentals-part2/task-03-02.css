@@ -1,0 +1,8 @@
+#table-header {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.custom-th {
+  padding: 4px;
+}

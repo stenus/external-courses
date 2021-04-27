@@ -1,0 +1,13 @@
+.vertical-fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.text-input {
+    margin-bottom: 0.5rem;
+}

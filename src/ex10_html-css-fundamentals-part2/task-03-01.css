@@ -1,0 +1,23 @@
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 2px 2px;
+  color: #758697;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+.custom-td {
+  padding: 10px;
+}
+
+.custom-tr:nth-child(2n + 1) {
+  background-color: #e3eaf3;
+}
+
+.custom-tr:nth-child(2n + 2) {
+  background-color: #f2f6fa;
+}
+
+.custom-tr:hover {
+  background-color: #e2e5e9;
+}
