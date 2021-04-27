@@ -173,7 +173,6 @@ body {
   color: #6d6e71;
   text-decoration: none;
   cursor: pointer;
-  background-color: none;
 }
 
 .navbar-link:hover {
@@ -248,7 +247,7 @@ body {
 
 .subtitle {
   font-size: 35px;
-  font-weight: light;
+  font-weight: lighter;
   text-align: end;
 }
 
