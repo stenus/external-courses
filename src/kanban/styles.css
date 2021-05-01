@@ -44,12 +44,12 @@
   display: flex;
   justify-content: space-around;
   font: inherit;
-  display: flex;
   align-items: center;
   height: 33px;
   width: 181px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .create-list-button-plus {
@@ -92,10 +92,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  bottom: 0;
   min-height: 55px;
-  margin-top: auto;
 }
 
 .footer-left-wrapper {
