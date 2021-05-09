@@ -1,0 +1,15 @@
+.rounded {
+  border-radius: 50%;
+}
+
+.small-img {
+  width: 600px;
+  height: 600px;
+}
+
+.light {
+  -webkit-mask-image: url("images/whatsapp.png");
+  mask-image: url("images/whatsapp.png");
+  -webkit-mask-size: 600px 600px;
+  mask-size: 600px 600px;
+}
